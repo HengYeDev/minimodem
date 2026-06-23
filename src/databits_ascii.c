@@ -18,6 +18,7 @@
  */
 
 #include "databits.h"
+#include <stdio.h>
 
 /*
  * ASCII 8-bit data databits decoder/encoder (passthrough)
@@ -38,8 +39,23 @@ databits_decode_ascii8( char *dataout_p, unsigned int dataout_size,
 {
     if ( ! dataout_p )	// databits processor reset: noop
 	return 0;
+
     bits &= 0xFF;
     *dataout_p = bits;
+    return 1;
+}
+
+/* returns nbytes decoded, ignores parity bit (i.e. from Silent 700 terminal) */
+unsigned int
+databits_decode_ascii7( char *dataout_p, unsigned int dataout_size,
+	unsigned long long bits, unsigned int n_databits )
+{
+    if ( ! dataout_p )	// databits processor reset: noop
+	return 0;
+
+    bits &= 0x7F;
+    *dataout_p = bits;
+
     return 1;
 }
 

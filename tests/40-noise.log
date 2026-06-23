@@ -1,0 +1,6 @@
+0.00 testdata-ascii.txt /tmp/minimodem-test-66401.out differ: byte 1, line 1
+0.05 testdata-ascii.txt /tmp/minimodem-test-66440.out differ: byte 1, line 1
+0.10 testdata-ascii.txt /tmp/minimodem-test-66445.out differ: byte 1, line 1
+0.50 testdata-ascii.txt /tmp/minimodem-test-66484.out differ: byte 1, line 1
+  (4/4 noise tests failed)
+FAIL 40-noise.test (exit status: 4)

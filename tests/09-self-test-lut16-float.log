@@ -1,0 +1,2 @@
+testdata-ascii.txt /tmp/minimodem-test-65923.out differ: byte 1, line 1
+FAIL 09-self-test-lut16-float.test (exit status: 1)

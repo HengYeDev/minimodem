@@ -1,0 +1,2 @@
+OK      three runs of '--tx 1200 ' created identical output
+PASS 16-verify-tx-consistent.test (exit status: 0)

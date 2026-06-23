@@ -629,6 +629,7 @@ main( int argc, char*argv[] )
 	    { "print-eot",	0, 0, MINIMODEM_OPT_PRINT_EOT },
 	    { "Xrxnoise",	1, 0, MINIMODEM_OPT_XRXNOISE },
 	    { "tx-carrier",      0, 0, MINIMODEM_OPT_TXCARRIER },
+		{ "ascii-7",	0, 0, 'p'},
 	    { 0 }
 	};
 	c = getopt_long(argc, argv, "Vtrc:l:ai875u:f:b:v:M:S:T:qs::A::R:",
@@ -666,6 +667,10 @@ main( int argc, char*argv[] )
 			break;
 	    case '8':
 			bfsk_n_data_bits = 8;
+			break;
+		case 'p':
+			bfsk_n_data_bits = 8;
+			bfsk_databits_decode = databits_decode_ascii7;
 			break;
 	    case '7':
 			bfsk_n_data_bits = 7;

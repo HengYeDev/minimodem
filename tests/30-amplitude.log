@@ -1,0 +1,37 @@
+3.50 testdata-ascii.txt /tmp/minimodem-test-66045.out differ: byte 1, line 1
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+./30-amplitude.test: line 28: [: too many arguments
+FAIL: rx amplitude does not match tx volume
+1.00 testdata-ascii.txt /tmp/minimodem-test-66059.out differ: byte 1, line 1
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+./30-amplitude.test: line 28: [: too many arguments
+FAIL: rx amplitude does not match tx volume
+0.30 testdata-ascii.txt /tmp/minimodem-test-66073.out differ: byte 1, line 1
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+./30-amplitude.test: line 28: [: too many arguments
+FAIL: rx amplitude does not match tx volume
+0.01 testdata-ascii.txt /tmp/minimodem-test-66087.out differ: byte 1, line 1
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+./30-amplitude.test: line 28: [: too many arguments
+FAIL: rx amplitude does not match tx volume
+ E   testdata-ascii.txt /tmp/minimodem-test-66121.out differ: byte 1, line 1
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+./30-amplitude.test: line 28: [: too many arguments
+FAIL: rx amplitude does not match tx volume
+  (10/5 amplitude tests failed)
+FAIL 30-amplitude.test (exit status: 10)

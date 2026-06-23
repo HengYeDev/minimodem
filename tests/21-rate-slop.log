@@ -1,0 +1,7 @@
+292 testdata-ascii.txt /tmp/minimodem-test-66015.out differ: byte 1, line 1
+299 testdata-ascii.txt /tmp/minimodem-test-66020.out differ: byte 1, line 1
+300 testdata-ascii.txt /tmp/minimodem-test-66025.out differ: byte 1, line 1
+301 testdata-ascii.txt /tmp/minimodem-test-66030.out differ: byte 1, line 1
+308 testdata-ascii.txt /tmp/minimodem-test-66035.out differ: byte 1, line 1
+  (5/5 rate-slop tests failed)
+FAIL 21-rate-slop.test (exit status: 5)
