@@ -1,4 +1,6 @@
 *.o
+*.log
+*.trs
 .deps
 Makefile
 Makefile.in
@@ -15,3 +17,4 @@ Makefile.in
 /missing
 /stamp-h1
 /test-driver
+
