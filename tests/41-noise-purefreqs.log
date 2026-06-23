@@ -1,6 +1,0 @@
-0.00 testdata-ascii.txt /tmp/minimodem-test-66528.out differ: byte 1, line 1
-0.05 testdata-ascii.txt /tmp/minimodem-test-66567.out differ: byte 1, line 1
-0.10 testdata-ascii.txt /tmp/minimodem-test-66573.out differ: byte 1, line 1
-0.50 testdata-ascii.txt /tmp/minimodem-test-66611.out differ: byte 1, line 1
-  (4/4 noise tests failed)
-FAIL 41-noise-purefreqs.test (exit status: 4)

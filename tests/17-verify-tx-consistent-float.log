@@ -1,2 +1,0 @@
-OK      three runs of '--tx 1200 --float-samples' created identical output
-PASS 17-verify-tx-consistent-float.test (exit status: 0)
